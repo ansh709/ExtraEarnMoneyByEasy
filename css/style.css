@@ -188,4 +188,34 @@
 			/* border-radius: 62px; */
 			font-size: 22px;
 		} 
+		#LoginForm{
+			display:none;
+		}
+		#signupForm{
+			display:none;
+		}
+		#signupForm,#LoginForm{
+			padding: 30px;
+			background: rgb(0 0 0 / 70%);
+			position: fixed;
+			z-index: 9999999;
+			width: 100%;
+			border-top-left-radius: 50px;
+			border-top-right-radius: 51px;
+			backdrop-filter: blur(93px);
+			bottom: 0;
+			
+		}
+		#profilePage{
+			position: fixed;
+			height: 100%;
+			top: 0;
+			background: rgb(26 28 32);
+			width: 100%;
+			display:none;
+			overflow: scroll;
+
+		}
+		
+		
 }

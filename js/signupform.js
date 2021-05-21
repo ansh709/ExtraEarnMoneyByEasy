@@ -7,7 +7,7 @@ class SignupForm{
 	}
 }
 
-var field = new SignupForm("<input type='text' placeholder='Type Your Name' name='fullname' class='form-control' required>","<input type='email' placeholder='Type Your Email' name='email' class='form-control' required>","<input type='phone' placeholder='Type Your Name' name='phone' class='form-control' required>","<input type='password' placeholder='Password' name='password' class='form-control' required>");
+var field = new SignupForm("<input type='text' placeholder='Type Your Name' name='fullname' class='form-control' required>","<input type='email' placeholder='Type Your Email' name='email' class='form-control' required>","<input type='phone' placeholder='Type Your Phone Number' name='phone' class='form-control' required>","<input type='password' placeholder='Password' name='password' class='form-control' required>");
 
 signup = ()=>{
 	signupForm.innerHTML+=`

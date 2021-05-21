@@ -2,9 +2,9 @@
   "short_name": "EEM",
   "name": "Extra Earn Money",
   "start_url": "https://ansh709.github.io/ExtraEarnMoneyByEasy/",
-  "background_color": "#3367D6",
-  "display": "standalone",
-  "theme_color": "#3367D6",
+   "background_color": "black",
+  "display": "fullscreen",
+  "theme_color": "black",
   "icons": [
     {
       "src": "images/logoBlack.png",

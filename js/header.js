@@ -17,8 +17,8 @@ AllData = () => {
     </div>
     <div class="col-md-6">
         <div class="Userprofile text-right">
-            <a href="#">
-                <img src="${myHeaderItem.profileIcon}" alt="">
+            <a class="myprofile">
+                <img src="${myHeaderItem.profileIcon}" alt="" onclick="prohold()">
             </a>
         </div>
     </div>
@@ -37,3 +37,4 @@ if ("serviceWorker" in navigator) {
             .catch(err => console.log("service worker not registered", err));
     });
 }
+
